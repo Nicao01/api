@@ -118,6 +118,110 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
                 },
               ],
             },
+          }, 
+          {
+            title: 'Saúde Física e Funcionalidades',
+            icon: 'LIST_TODO',
+
+            questions: {
+              create: [
+                {
+                  title:
+                    'Dificuldades para andar, usar as mãos, escrever, vestir-se sozinho, manter o equilibrio?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Perda de audição ou visão?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                
+                {
+                  title:
+                    'Uso de aparelho auditivo ou óculos?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    ' Histórico de doenças e condições (doença caríaca, trauma de crânio, doença vascular, etc..)?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Histórico médico anterior?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+                
+                {
+                  title:
+                    'Perda de consciência (quando e motivo)?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Histórico de cirurgias?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+
+                {
+                  title:
+                    'Histórico familiar de doenças (doença cardiácara, hipertensão, doença psiquiátrica, etc..)?',
+                  question_type: 'ESSAY',
+
+                  answers: {
+                    create: {
+                      value: '',
+                    },
+                  },
+                },
+              ],
+            },
           },
         ],
       },
